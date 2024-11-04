@@ -31,10 +31,10 @@ Pick a Kaggle competition from the following list. You have the choice of comple
 
 ## Timeline
 
-- **9:00am**: Project introduction.
-- **10:00am**: By 10:00am, let us know which dataset you've chosen.
-- **2pm**: 3-minute lightning talks where you walk us through your process. **No slides necessary** -- it's fine if you'd prefer to walk us through your Jupyter notebook instead, but remember you only have 3 minutes!
-- **3pm**: Make sure your project work has been pushed.
+- **12:00ET/ 9:00am PT**: Project introduction.
+- **1:00pm ET/ 10:00am PT**: By 10:00am, let us know which dataset you've chosen.
+- **4pm ET/ 1pm PT**: 3-minute lightning talks where you walk us through your process. **No slides necessary** -- it's fine if you'd prefer to walk us through your Jupyter notebook instead, but remember you only have 3 minutes!
+- **5pm ET/ 2pm PT**: Make sure your project work has been pushed.
 
 ## Guidelines
 
