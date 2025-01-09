@@ -31,21 +31,35 @@ The dataset contains recipes with the following fields:
    - Identified common and unique ingredients for each cuisine.
 
 ### 2. **Preprocessing:**
+ 
    - Cleaned and tokenized ingredient lists.
-   - Converted text data into numerical features using TF-IDF vectorization.
+   - Used techniques like TF-IDF vectorization and Count Vectorization for text representation.
 
-### 3. **Feature Engineering:**
-   - Experimented with bag-of-words and n-grams for better feature representation.
-   - Focused on capturing the essence of ingredient combinations.
 
-### 4. **Modeling:**
+
+### 3. **Modeling:**
    - Tested multiple machine learning models, including:
      - Logistic Regression
-     - Random Forest
-     - Multinomial Naive Bayes
      - XGBoost
-   - Used accuracy as the primary metric for evaluation.
+   - Used accuracy, F1 score, Recall metrics for evaluation.
    - Applied cross-validation to ensure generalization.
+---
+
+### 4. **Results**
+
+### Logistic Regression
+- **Training Accuracy:** 86%
+- **Testing Accuracy:** 78%
+- **Recall (Weighted Average):** 0.78
+- **F1 Score (Weighted Average):** 0.78
+
+### XGBoost
+- **Training Accuracy:** 74%
+- **Testing Accuracy:** 72%
+- **Recall (Weighted Average):** 0.72
+- **F1 Score (Weighted Average):** 0.71
+
+---
 
 ### 5. **Deployment and Submission:**
    - Generated predictions for the test dataset.
