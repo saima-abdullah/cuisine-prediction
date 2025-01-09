@@ -76,6 +76,6 @@ The dataset contains recipes with the following fields:
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your-username/whats-cooking.git](https://github.com/saima-abdullah/cuisine-prediction)
+   git clone [https://github.com/saima-abdullah/cuisine-prediction]
    cd cuisine-prediction
    
