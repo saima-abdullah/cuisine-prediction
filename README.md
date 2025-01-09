@@ -1,6 +1,15 @@
-# What's Cooking?
+# Cuisine Prediction?
 
 This repository showcases my approach to the **"What's Cooking?"** Kaggle competition, completed as part of a one-day hackathon during my **Data Science Bootcamp at General Assembly**. The competition involves building a machine learning model to classify cuisines based on a list of ingredients.
+## Table of Contents
+- [Project Overview](#projectoverview)
+- [Dataset](#dataset)
+- [Methodology](#methodology)
+- [Hackathon Highlights](#hackathonhighlights)
+- [Results](#results)
+- [Tools and Libraries](#toolsandlibraries)
+- [Future Work](#futurework)
+
 
 ## Project Overview
 
@@ -25,43 +34,32 @@ The dataset contains recipes with the following fields:
 
 ## Methodology
 
-### 1. **Exploratory Data Analysis (EDA):**
+ 1. **Exploratory Data Analysis (EDA):**
    - Visualized the distribution of cuisines.
    - Analyzed ingredient frequency by cuisine.
    - Identified common and unique ingredients for each cuisine.
 
-### 2. **Preprocessing:**
+ 2. **Preprocessing:**
  
    - Cleaned and tokenized ingredient lists.
    - Used techniques like TF-IDF vectorization and Count Vectorization for text representation.
 
 
 
-### 3. **Modeling:**
+ 3. **Modeling:**
    - Tested multiple machine learning models, including:
      - Logistic Regression
      - XGBoost
-   - Used accuracy, F1 score, Recall metrics for evaluation.
+   - Use hyperparameter tuning to improve performance.
+4. **Evaluation:**
+ - Used accuracy, F1 score, Recall metrics for evaluation.
    - Applied cross-validation to ensure generalization.
----
 
-### 4. **Results**
 
-### Logistic Regression
-- **Training Accuracy:** 86%
-- **Testing Accuracy:** 78%
-- **Recall (Weighted Average):** 0.78
-- **F1 Score (Weighted Average):** 0.78
+ 
 
-### XGBoost
-- **Training Accuracy:** 74%
-- **Testing Accuracy:** 72%
-- **Recall (Weighted Average):** 0.72
-- **F1 Score (Weighted Average):** 0.71
 
----
-
-### 5. **Deployment and Submission:**
+ 5. **Deployment and Submission:**
    - Generated predictions for the test dataset.
    - Created a formatted submission file for Kaggle.
 
@@ -73,9 +71,18 @@ The dataset contains recipes with the following fields:
 
 ## Results
 
-- **Best Model:** [Insert model name used in the final submission]
-- **Accuracy:** [Insert accuracy or leaderboard score if available]
-- **Leaderboard Placement:** [Optional]
+- Logistic Regression
+   - **Training Accuracy:** 86%
+   - **Testing Accuracy:** 78%
+   - **Recall (Weighted Average):** 0.78
+   - **F1 Score (Weighted Average):** 0.78
+
+- XGBoost
+   - **Training Accuracy:** 74%
+   - **Testing Accuracy:** 72%
+   - **Recall (Weighted Average):** 0.72
+   - **F1 Score (Weighted Average):** 0.71
+
 
 ## Tools and Libraries
 
@@ -92,4 +99,13 @@ The dataset contains recipes with the following fields:
    ```bash
    git clone [https://github.com/saima-abdullah/cuisine-prediction]
    cd cuisine-prediction
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+## Future Work
+
+- Explore more advanced NLP techniques like Word2Vec or embeddings.
+- Improve accuracy by using ensemble methods.
+- Deploy the model using a web application for real-time predictions.
+
    
